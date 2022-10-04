@@ -465,6 +465,11 @@ static enum power_supply_property sony_battery_props[] = {
 	POWER_SUPPLY_PROP_STATUS,
 };
 
+static inline bool hid_is_usb(struct hid_device *hdev)
+{
+	return hid_is_using_ll_driver(hdev, &usb_hid_driver);
+}
+
 struct sixaxis_led {
 	u8 time_enabled; /* the total time the led is active (0xff means forever) */
 	u8 duty_length;  /* how long a cycle is in deciseconds (0 means "really fast") */
