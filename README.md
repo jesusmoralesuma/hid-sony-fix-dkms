@@ -11,7 +11,7 @@ Another problem is: sometimes the variable `calib->sens_denom` returns zero, and
 Install DKMS first.
 
 ```
-sudo git clone https://github.com/ozz-is-here/hid-sony-fix-dkms.git /usr/src/hid-sony-fix-dkms-0.1
+sudo git clone https://github.com/jesusmoralesuma/hid-sony-fix-dkms.git /usr/src/hid-sony-fix-dkms-0.1
 sudo dkms install -m hid-sony-fix-dkms -v 0.1
 ```
 
@@ -37,7 +37,7 @@ sudo rm -rf /usr/src/hid-sony-fix-dkms-0.1
 Сначала установите DKMS.
 
 ```
-sudo git clone https://github.com/ozz-is-here/hid-sony-fix-dkms.git /usr/src/hid-sony-fix-dkms-0.1
+sudo git clone https://github.com/jesusmoralesuma/hid-sony-fix-dkms.git /usr/src/hid-sony-fix-dkms-0.1
 sudo dkms install -m hid-sony-fix-dkms -v 0.1
 ```
 
